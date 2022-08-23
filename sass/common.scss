@@ -20,6 +20,16 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+        url('OpenSans-Light.woff2') format('woff2'),
+        url('OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -50,10 +60,6 @@ body {
     padding-right: 5%;
     padding-left: 5%;
 
-    @media(min-width: $tablet-width) {
-        // padding-right: 15px;
-        // padding-left: 15px;
-    }
     @media(min-width: $desktop-width) {
         padding-right: 125px;
         padding-left: 125px;
