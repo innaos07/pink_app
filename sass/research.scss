@@ -1,0 +1,110 @@
+@import 'variables';
+
+.research {
+
+    @media(min-width: $tablet-width) {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    @media(min-width: $desktop-width) {
+        padding-top: 0;
+        background-color: #f2f2f2;
+    }
+}
+
+.clock {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        display: inline-flex;
+
+        content: '24';
+        top: 50%;
+        left: 50%;
+        margin-left: -55px;
+        margin-top: -35px;
+        width: 110px;
+        height: 90px;
+
+        font-size: 90px;
+        font-weight: 700;
+        color: $pink-color;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 90px;
+
+        @media(min-width: $desktop-width) {
+            top: 50%;
+            left: 50%;
+            margin-top: -45px
+        }
+    }
+}
+
+.clock img {
+
+    @media(min-width: $tablet-width) {
+        width: 240px;
+        height: 280px;
+    }
+
+    @media(min-width: $desktop-width) {
+
+        width: 280px;
+        height: 330px;
+    }
+}
+
+.research__info {
+
+    @media(min-width: $tablet-width) {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    @media(min-width: $desktop-width) {
+        padding-top: 90px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+    }
+}
+
+.research__title {
+
+    @media(min-width: $tablet-width) {
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+}
+
+.research__text {
+
+    @media(min-width: $tablet-width) {
+        margin-bottom: 15px;
+    }
+
+    @media(min-width: $desktop-width) {
+        margin-bottom: 25px;
+    }
+}
+
+.research__link {
+    display: block;
+    color: #d22856;
+    text-decoration: underline;
+    transition: all 0.5s;
+
+    &:hover,
+    &:focus {
+        color: #283645;
+    }
+
+    &:active {
+        color: #283645;
+        opacity: 0.5;
+    }
+}
