@@ -67,7 +67,6 @@
             background-size: 260px 280px;
         }
 
-
         @media(min-width: $tablet-width) {
             bottom: -15px;
             left: auto;
@@ -90,13 +89,13 @@
         @media(min-width: $desktop-width) {
             padding-top: 100px;
             padding-bottom: 100px; 
-
             bottom: 0;
             width: 1050px;
             height: 645px;
             margin-right: -525px;
             background-image: url('../img/iphone-hand-desktop@1x.png');
         }
+
         @media (-webkit-min-device-pixel-ratio: 1.5) and (min-width: $desktop-width), 
             (min-resolution: 144dpi) and (min-width: $desktop-width),
             (min-resolution: 1.5dppx) and (min-width: $desktop-width) {
@@ -179,7 +178,6 @@
         color: #f1becc;
         background-color: #ffffff;
     }
-
 }
 
 .downloads-list {
