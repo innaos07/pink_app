@@ -12,10 +12,11 @@
         font-size: 40px;
         line-height: calc(48/40*100%);
     }
-
+    
     @media(min-width: $desktop-width) {
         font-size: 50px;
     }
+
     @media(min-width: $tablet-width) {
         line-height: calc(60/50*100%);
         padding-left: 0;
